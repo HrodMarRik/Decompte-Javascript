@@ -1,0 +1,28 @@
+:root {
+  --font-family: "Nunito", sans-serif;
+
+  --font-lg: 26px;
+  --font-xl: 40px;
+
+  --font-bold: 700;
+
+  --space-xxl: 40px;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0 100px;
+  font-family: var(--font-family);
+}
+h1 {
+  font-weight: var(--font-bold);
+  text-align: center;
+  padding: var(--space-xl) 0;
+  font-size: var(--font-xl);
+}
+p {
+  margin-top: var(--space-xxl);
+  font-size: var(--font-lg);
+  text-align: center;
+}
